@@ -5,7 +5,8 @@ import streamlit as st
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 
-CAMINHO_FIXO = r'C:/Users/ceoliveira/Downloads/mega_sena.xlsx'
+#CAMINHO_FIXO = r'C:/Users/ceoliveira/Downloads/mega_sena.xlsx'
+CAMINHO_FIXO = "mega_sena.xlsx"
 
 st.set_page_config(page_title="Previsão Mega-Sena", layout="centered")
 st.title("🎯 Previsão Inteligente da Mega-Sena")
